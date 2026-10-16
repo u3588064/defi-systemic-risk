@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T06:41:23.730861+00:00",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T06:33:16.084338+00:00",
   "methodology_version": "1.0",
   "stablecoin_stress": {
-    "total_stablecoin_mcap_usd_bn": 268.69,
-    "system_peg_stress_index": 0.06729,
+    "total_stablecoin_mcap_usd_bn": 268.26,
+    "system_peg_stress_index": 0.060502,
     "system_stress_level": "NORMAL",
     "critical_count": 0,
     "warning_count": 1,
@@ -13,97 +13,97 @@
         "id": "frax",
         "symbol": "FRAX",
         "name": "Legacy Frax Dollar",
-        "price_usd": 0.989281,
-        "peg_deviation": -0.010719,
-        "peg_deviation_pct": 1.0719,
+        "price_usd": 0.992239,
+        "peg_deviation": -0.007761,
+        "peg_deviation_pct": 0.7761,
         "status": "WARNING",
-        "market_cap_usd_bn": 0.217,
+        "market_cap_usd_bn": 0.218,
         "volume_24h_usd_bn": 0.0,
-        "price_change_24h_pct": -0.092
-      },
-      {
-        "id": "first-digital-usd",
-        "symbol": "FDUSD",
-        "name": "First Digital USD",
-        "price_usd": 0.997173,
-        "peg_deviation": -0.002827,
-        "peg_deviation_pct": 0.2827,
-        "status": "STABLE",
-        "market_cap_usd_bn": 0.318,
-        "volume_24h_usd_bn": 0.201,
-        "price_change_24h_pct": -0.1288
+        "price_change_24h_pct": 0.3376
       },
       {
         "id": "paxos-standard",
         "symbol": "USDP",
         "name": "Pax Dollar",
-        "price_usd": 0.9974,
-        "peg_deviation": -0.0026,
-        "peg_deviation_pct": 0.26,
+        "price_usd": 0.99589,
+        "peg_deviation": -0.00411,
+        "peg_deviation_pct": 0.411,
         "status": "STABLE",
         "market_cap_usd_bn": 0.023,
-        "volume_24h_usd_bn": 0.001,
-        "price_change_24h_pct": 0.1894
+        "volume_24h_usd_bn": 0.0,
+        "price_change_24h_pct": -0.1341
       },
       {
-        "id": "usdd",
-        "symbol": "USDD",
-        "name": "USDD",
-        "price_usd": 0.99744,
-        "peg_deviation": -0.00256,
-        "peg_deviation_pct": 0.256,
+        "id": "first-digital-usd",
+        "symbol": "FDUSD",
+        "name": "First Digital USD",
+        "price_usd": 0.998325,
+        "peg_deviation": -0.001675,
+        "peg_deviation_pct": 0.1675,
         "status": "STABLE",
-        "market_cap_usd_bn": 1.763,
-        "volume_24h_usd_bn": 0.003,
-        "price_change_24h_pct": -0.0918
+        "market_cap_usd_bn": 0.315,
+        "volume_24h_usd_bn": 0.148,
+        "price_change_24h_pct": 0.1158
       },
       {
         "id": "true-usd",
         "symbol": "TUSD",
         "name": "TrueUSD",
-        "price_usd": 0.998805,
-        "peg_deviation": -0.001195,
-        "peg_deviation_pct": 0.1195,
+        "price_usd": 0.998816,
+        "peg_deviation": -0.001184,
+        "peg_deviation_pct": 0.1184,
         "status": "STABLE",
         "market_cap_usd_bn": 0.494,
         "volume_24h_usd_bn": 0.015,
-        "price_change_24h_pct": -0.0423
+        "price_change_24h_pct": -0.0265
       },
       {
         "id": "tether",
         "symbol": "USDT",
         "name": "Tether",
-        "price_usd": 0.999181,
-        "peg_deviation": -0.000819,
-        "peg_deviation_pct": 0.0819,
+        "price_usd": 0.999222,
+        "peg_deviation": -0.000778,
+        "peg_deviation_pct": 0.0778,
         "status": "STABLE",
-        "market_cap_usd_bn": 183.896,
-        "volume_24h_usd_bn": 71.452,
-        "price_change_24h_pct": -0.004
+        "market_cap_usd_bn": 183.514,
+        "volume_24h_usd_bn": 59.64,
+        "price_change_24h_pct": 0.0057
+      },
+      {
+        "id": "usdd",
+        "symbol": "USDD",
+        "name": "USDD",
+        "price_usd": 0.999229,
+        "peg_deviation": -0.000771,
+        "peg_deviation_pct": 0.0771,
+        "status": "STABLE",
+        "market_cap_usd_bn": 1.778,
+        "volume_24h_usd_bn": 0.003,
+        "price_change_24h_pct": 0.1797
       },
       {
         "id": "ethena-usde",
         "symbol": "USDE",
         "name": "Ethena USDe",
-        "price_usd": 0.999405,
-        "peg_deviation": -0.000595,
-        "peg_deviation_pct": 0.0595,
+        "price_usd": 0.999354,
+        "peg_deviation": -0.000646,
+        "peg_deviation_pct": 0.0646,
         "status": "STABLE",
-        "market_cap_usd_bn": 4.744,
-        "volume_24h_usd_bn": 0.047,
-        "price_change_24h_pct": -0.0034
+        "market_cap_usd_bn": 4.723,
+        "volume_24h_usd_bn": 0.042,
+        "price_change_24h_pct": -0.0036
       },
       {
         "id": "usd-coin",
         "symbol": "USDC",
         "name": "USDC",
-        "price_usd": 0.999739,
-        "peg_deviation": -0.000261,
-        "peg_deviation_pct": 0.0261,
+        "price_usd": 0.999832,
+        "peg_deviation": -0.000168,
+        "peg_deviation_pct": 0.0168,
         "status": "STABLE",
-        "market_cap_usd_bn": 72.698,
-        "volume_24h_usd_bn": 21.125,
-        "price_change_24h_pct": -0.0052
+        "market_cap_usd_bn": 72.664,
+        "volume_24h_usd_bn": 18.211,
+        "price_change_24h_pct": 0.0117
       },
       {
         "id": "dai",
@@ -113,9 +113,9 @@
         "peg_deviation": 0.0,
         "peg_deviation_pct": 0.0,
         "status": "STABLE",
-        "market_cap_usd_bn": 4.535,
-        "volume_24h_usd_bn": 0.298,
-        "price_change_24h_pct": -0.0079
+        "market_cap_usd_bn": 4.529,
+        "volume_24h_usd_bn": 0.256,
+        "price_change_24h_pct": 0.0107
       }
     ]
   },
@@ -123,11 +123,11 @@
     "system_leverage_index": 0.0,
     "system_leverage_pct": 0.0,
     "system_stress_level": "LOW",
-    "total_lending_tvl_usd_bn": 33.89,
+    "total_lending_tvl_usd_bn": 34.5,
     "protocols": [
       {
         "protocol": "aave-v3",
-        "tvl_usd_bn": 17.161,
+        "tvl_usd_bn": 17.595,
         "total_borrow_usd_bn": 0.0,
         "utilization": 0.0,
         "utilization_pct": 0.0,
@@ -137,17 +137,17 @@
       },
       {
         "protocol": "morpho-blue",
-        "tvl_usd_bn": 15.324,
+        "tvl_usd_bn": 15.455,
         "total_borrow_usd_bn": 0.0,
         "utilization": 0.0,
         "utilization_pct": 0.0,
         "stress_level": "LOW",
         "avg_borrow_apy_pct": 0.0,
-        "pool_count": 642
+        "pool_count": 639
       },
       {
         "protocol": "compound-v3",
-        "tvl_usd_bn": 1.308,
+        "tvl_usd_bn": 1.347,
         "total_borrow_usd_bn": 0.0,
         "utilization": 0.0,
         "utilization_pct": 0.0,
@@ -157,7 +157,7 @@
       },
       {
         "protocol": "compound-v2",
-        "tvl_usd_bn": 0.099,
+        "tvl_usd_bn": 0.103,
         "total_borrow_usd_bn": 0.0,
         "utilization": 0.0,
         "utilization_pct": 0.0,
@@ -170,23 +170,23 @@
   "bridge_risk": {},
   "liquidation_cascade": {
     "method": "TVL-proxy (no Graph data)",
-    "lending_tvl_usd_bn": 50.1,
+    "lending_tvl_usd_bn": 50.74,
     "avg_ltv_assumption": 0.7,
     "scenarios": {
       "drop_10pct": {
-        "estimated_liquidatable_usd_bn": 7.16
+        "estimated_liquidatable_usd_bn": 7.25
       },
       "drop_20pct": {
-        "estimated_liquidatable_usd_bn": 14.31
+        "estimated_liquidatable_usd_bn": 14.5
       },
       "drop_30pct": {
-        "estimated_liquidatable_usd_bn": 21.47
+        "estimated_liquidatable_usd_bn": 21.74
       },
       "drop_40pct": {
-        "estimated_liquidatable_usd_bn": 28.63
+        "estimated_liquidatable_usd_bn": 28.99
       },
       "drop_50pct": {
-        "estimated_liquidatable_usd_bn": 35.78
+        "estimated_liquidatable_usd_bn": 36.24
       }
     }
   },
@@ -207,54 +207,54 @@
     }
   },
   "defi_global": {
-    "defi_market_cap": "117457353283.6261",
-    "eth_market_cap": "288520778449.1394",
-    "defi_to_eth_ratio": "40.725926246668706",
-    "trading_volume_24h": "4964747658.508616",
-    "defi_dominance": "4.14885414553902",
+    "defi_market_cap": "122081840132.50433",
+    "eth_market_cap": "298613614348.5147",
+    "defi_to_eth_ratio": "40.871948661550675",
+    "trading_volume_24h": "5077699439.0823765",
+    "defi_dominance": "4.266970937946255",
     "top_coin_name": "Lido Staked Ether",
-    "top_coin_defi_dominance": 19.49166583694772
+    "top_coin_defi_dominance": 19.338949825685567
   },
   "top_chains_tvl": [
     {
       "chain": "Ethereum",
-      "tvl_usd_bn": 49.34
+      "tvl_usd_bn": 50.31
     },
     {
       "chain": "Base",
-      "tvl_usd_bn": 6.04
+      "tvl_usd_bn": 6.17
     },
     {
       "chain": "Solana",
-      "tvl_usd_bn": 5.92
+      "tvl_usd_bn": 6.0
     },
     {
       "chain": "Tron",
-      "tvl_usd_bn": 5.52
+      "tvl_usd_bn": 5.59
     },
     {
       "chain": "BSC",
-      "tvl_usd_bn": 5.28
+      "tvl_usd_bn": 5.34
     },
     {
       "chain": "Bitcoin",
-      "tvl_usd_bn": 4.32
+      "tvl_usd_bn": 4.39
     },
     {
       "chain": "Arbitrum",
-      "tvl_usd_bn": 1.36
+      "tvl_usd_bn": 1.41
     },
     {
       "chain": "Hyperliquid L1",
-      "tvl_usd_bn": 1.04
+      "tvl_usd_bn": 1.07
     },
     {
       "chain": "Robinhood Chain",
-      "tvl_usd_bn": 1.04
+      "tvl_usd_bn": 1.05
     },
     {
       "chain": "Monad",
-      "tvl_usd_bn": 1.01
+      "tvl_usd_bn": 1.0
     }
   ]
 }
