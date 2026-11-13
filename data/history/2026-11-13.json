@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T08:53:36.013106+00:00",
+  "methodology_version": "1.0",
+  "stablecoin_stress": {
+    "total_stablecoin_mcap_usd_bn": 256.59,
+    "system_peg_stress_index": 0.070357,
+    "system_stress_level": "NORMAL",
+    "critical_count": 0,
+    "warning_count": 1,
+    "coins": [
+      {
+        "id": "frax",
+        "symbol": "FRAX",
+        "name": "Legacy Frax Dollar",
+        "price_usd": 0.99029,
+        "peg_deviation": -0.00971,
+        "peg_deviation_pct": 0.971,
+        "status": "WARNING",
+        "market_cap_usd_bn": 0.217,
+        "volume_24h_usd_bn": 0.0,
+        "price_change_24h_pct": -0.0242
+      },
+      {
+        "id": "first-digital-usd",
+        "symbol": "FDUSD",
+        "name": "First Digital USD",
+        "price_usd": 0.996404,
+        "peg_deviation": -0.003596,
+        "peg_deviation_pct": 0.3596,
+        "status": "STABLE",
+        "market_cap_usd_bn": 0.281,
+        "volume_24h_usd_bn": 0.12,
+        "price_change_24h_pct": 0.0183
+      },
+      {
+        "id": "usdd",
+        "symbol": "USDD",
+        "name": "USDD",
+        "price_usd": 0.998397,
+        "peg_deviation": -0.001603,
+        "peg_deviation_pct": 0.1603,
+        "status": "STABLE",
+        "market_cap_usd_bn": 1.486,
+        "volume_24h_usd_bn": 0.002,
+        "price_change_24h_pct": -0.0328
+      },
+      {
+        "id": "true-usd",
+        "symbol": "TUSD",
+        "name": "TrueUSD",
+        "price_usd": 0.998926,
+        "peg_deviation": -0.001074,
+        "peg_deviation_pct": 0.1074,
+        "status": "STABLE",
+        "market_cap_usd_bn": 0.494,
+        "volume_24h_usd_bn": 0.009,
+        "price_change_24h_pct": -0.0855
+      },
+      {
+        "id": "paxos-standard",
+        "symbol": "USDP",
+        "name": "Pax Dollar",
+        "price_usd": 0.999142,
+        "peg_deviation": -0.000858,
+        "peg_deviation_pct": 0.0858,
+        "status": "STABLE",
+        "market_cap_usd_bn": 0.022,
+        "volume_24h_usd_bn": 0.0,
+        "price_change_24h_pct": 0.0736
+      },
+      {
+        "id": "tether",
+        "symbol": "USDT",
+        "name": "Tether",
+        "price_usd": 0.999204,
+        "peg_deviation": -0.000796,
+        "peg_deviation_pct": 0.0796,
+        "status": "STABLE",
+        "market_cap_usd_bn": 175.577,
+        "volume_24h_usd_bn": 64.075,
+        "price_change_24h_pct": 0.0197
+      },
+      {
+        "id": "ethena-usde",
+        "symbol": "USDE",
+        "name": "Ethena USDe",
+        "price_usd": 0.999299,
+        "peg_deviation": -0.000701,
+        "peg_deviation_pct": 0.0701,
+        "status": "STABLE",
+        "market_cap_usd_bn": 4.931,
+        "volume_24h_usd_bn": 0.035,
+        "price_change_24h_pct": 0.0105
+      },
+      {
+        "id": "usd-coin",
+        "symbol": "USDC",
+        "name": "USDC",
+        "price_usd": 0.999549,
+        "peg_deviation": -0.000451,
+        "peg_deviation_pct": 0.0451,
+        "status": "STABLE",
+        "market_cap_usd_bn": 69.109,
+        "volume_24h_usd_bn": 17.219,
+        "price_change_24h_pct": 0.0043
+      },
+      {
+        "id": "dai",
+        "symbol": "DAI",
+        "name": "Dai",
+        "price_usd": 0.999979,
+        "peg_deviation": -2.1e-05,
+        "peg_deviation_pct": 0.0021,
+        "status": "STABLE",
+        "market_cap_usd_bn": 4.469,
+        "volume_24h_usd_bn": 0.181,
+        "price_change_24h_pct": 0.0182
+      }
+    ]
+  },
+  "protocol_leverage": {
+    "system_leverage_index": 0.0,
+    "system_leverage_pct": 0.0,
+    "system_stress_level": "LOW",
+    "total_lending_tvl_usd_bn": 31.95,
+    "protocols": [
+      {
+        "protocol": "aave-v3",
+        "tvl_usd_bn": 15.551,
+        "total_borrow_usd_bn": 0.0,
+        "utilization": 0.0,
+        "utilization_pct": 0.0,
+        "stress_level": "LOW",
+        "avg_borrow_apy_pct": 0.0,
+        "pool_count": 238
+      },
+      {
+        "protocol": "morpho-blue",
+        "tvl_usd_bn": 15.255,
+        "total_borrow_usd_bn": 0.0,
+        "utilization": 0.0,
+        "utilization_pct": 0.0,
+        "stress_level": "LOW",
+        "avg_borrow_apy_pct": 0.0,
+        "pool_count": 671
+      },
+      {
+        "protocol": "compound-v3",
+        "tvl_usd_bn": 1.064,
+        "total_borrow_usd_bn": 0.0,
+        "utilization": 0.0,
+        "utilization_pct": 0.0,
+        "stress_level": "LOW",
+        "avg_borrow_apy_pct": 0.0,
+        "pool_count": 101
+      },
+      {
+        "protocol": "compound-v2",
+        "tvl_usd_bn": 0.083,
+        "total_borrow_usd_bn": 0.0,
+        "utilization": 0.0,
+        "utilization_pct": 0.0,
+        "stress_level": "LOW",
+        "avg_borrow_apy_pct": 0.0,
+        "pool_count": 14
+      }
+    ]
+  },
+  "bridge_risk": {},
+  "liquidation_cascade": {
+    "method": "TVL-proxy (no Graph data)",
+    "lending_tvl_usd_bn": 45.51,
+    "avg_ltv_assumption": 0.7,
+    "scenarios": {
+      "drop_10pct": {
+        "estimated_liquidatable_usd_bn": 6.5
+      },
+      "drop_20pct": {
+        "estimated_liquidatable_usd_bn": 13.0
+      },
+      "drop_30pct": {
+        "estimated_liquidatable_usd_bn": 19.5
+      },
+      "drop_40pct": {
+        "estimated_liquidatable_usd_bn": 26.0
+      },
+      "drop_50pct": {
+        "estimated_liquidatable_usd_bn": 32.5
+      }
+    }
+  },
+  "onchain_stress": {
+    "btc": {
+      "exchange_balance": null,
+      "mvrv_z_score": null,
+      "sopr": null,
+      "tx_count": null,
+      "price_usd": null
+    },
+    "eth": {
+      "exchange_balance": null,
+      "mvrv_z_score": null,
+      "sopr": null,
+      "tx_count": null,
+      "price_usd": null
+    }
+  },
+  "defi_global": {
+    "defi_market_cap": "97827581992.028",
+    "eth_market_cap": "236301525275.16412",
+    "defi_to_eth_ratio": "41.406944013935615",
+    "trading_volume_24h": "4248418521.9515734",
+    "defi_dominance": "4.051819088657947",
+    "top_coin_name": "Lido Staked Ether",
+    "top_coin_defi_dominance": 19.28669673225931
+  },
+  "top_chains_tvl": [
+    {
+      "chain": "Ethereum",
+      "tvl_usd_bn": 39.41
+    },
+    {
+      "chain": "Base",
+      "tvl_usd_bn": 5.47
+    },
+    {
+      "chain": "Solana",
+      "tvl_usd_bn": 4.96
+    },
+    {
+      "chain": "Tron",
+      "tvl_usd_bn": 4.79
+    },
+    {
+      "chain": "BSC",
+      "tvl_usd_bn": 4.78
+    },
+    {
+      "chain": "Bitcoin",
+      "tvl_usd_bn": 3.64
+    },
+    {
+      "chain": "Hyperliquid L1",
+      "tvl_usd_bn": 2.31
+    },
+    {
+      "chain": "Arbitrum",
+      "tvl_usd_bn": 1.34
+    },
+    {
+      "chain": "Robinhood Chain",
+      "tvl_usd_bn": 1.03
+    },
+    {
+      "chain": "Monad",
+      "tvl_usd_bn": 0.92
+    }
+  ]
+}
